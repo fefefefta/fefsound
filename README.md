@@ -5,10 +5,13 @@
 0. Клонируем репозиторий
 ```
 https://github.com/fefefefta/fefsound
+cd fefsound
 ```
 
 1. Установим окружение
 ```
+mkdir data
+mkdir data/downloaded_music
 python3 -m venv myenv
 source myenv/bin/activate
 pip install -r requirements.txt
