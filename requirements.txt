@@ -1,0 +1,4 @@
+mutagen==1.45.1
+pyglet==1.5.21
+pytube==11.0.2
+python-magic==0.4.24

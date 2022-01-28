@@ -1,4 +1,27 @@
-fefsound - это консольное приложение для прослушивания музыки. Управление приложением идет посредством команд, список которых приведен ниже:
+# fefsound
+консольное приложение для прослушивания музыки
+
+## setting up
+0. Клонируем репозиторий
+```
+https://github.com/fefefefta/fefsound
+```
+
+1. Установим окружение
+```
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
+2. Создадим базы данных
+```
+sqlite3 data/users.db
+sqlite> create table users (login TEXT);
+Ctrl+Z
+sqlite3 data/tracks.db
+sqlite> create table playlists (login TEXT, playlist TEXT, track TEXT, path TEXT);
+```
+## commands
 
 Команды set:
 
