@@ -22,8 +22,13 @@ sqlite3 data/users.db
 sqlite> create table users (login TEXT);
 Ctrl+Z
 sqlite3 data/tracks.db
-sqlite> create table playlists (login TEXT, playlist TEXT, track TEXT, path TEXT);
+sqlite> create table tracks (login TEXT, playlist TEXT, track TEXT, path TEXT);
 ```
+3. Запустим
+```
+python main.py
+```
+
 ## commands
 
 Команды set:
