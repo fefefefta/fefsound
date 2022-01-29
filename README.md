@@ -4,7 +4,7 @@
 ## setting up
 0. Клонируем репозиторий
 ```
-https://github.com/fefefefta/fefsound
+git clone https://github.com/fefefefta/fefsound
 cd fefsound
 ```
 
